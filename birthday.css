@@ -1,0 +1,43 @@
+h1 {
+  color: white;
+  font-family: courier ;
+  font-size: 72px ;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: courier ;
+  font-size: 54px ;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: courier ;
+  font-size: 42px ;
+  text-align: center;
+  font-weight: normal;
+}
+body {
+  background-color: #2a52aa;
+}
+
+main {
+  background-color: #2aaaff;
+  padding: 25px ;
+  margin: 50px ;
+}
+
+#song {
+  margin-left: 580px ; 
+}
+
+p {
+  color: white;
+  font-family: courier ;
+  font-size: 24px ;
+  text-align: center;
+  margin-left: 50px ;
+  margin-right: 50px ;
+}
