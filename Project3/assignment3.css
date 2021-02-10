@@ -1,0 +1,68 @@
+body {
+  background-color: blue;
+}
+
+main {
+  background-color: #2aaaff;
+  padding: 100px ;
+  margin: 100px ;
+}
+
+#animatedmain {
+  color: white;
+  font-size: 36px;
+  width: 1200px;
+  height: 800px;
+  margin-left: 75px;
+  border-radius:500px;
+  background-color: #300;
+  animation: back-ani 15s linear infinite;
+}
+
+@keyframes back-ani {
+  0%   {background-color:#C0C0C0;}
+  50%  {background-color:#800080;}
+  100% {background-color:#C0C0C0;}
+}
+
+#animatedbody {
+  color: white;
+  font-size: 36px;
+  background-color: #300;
+  animation: back-ani2 15s linear infinite;
+}
+
+@keyframes back-ani2 {
+  0%   {background-color:#800080;}
+  50%  {background-color:#C0C0C0;}
+  100% {background-color:#800080;}
+}
+
+h1 {
+  color: white;
+  font-family: courier ;
+  font-size: 72px ;
+  text-align: center;
+  padding-top: 200px ;
+
+
+}
+
+.circle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  border-radius:500px;
+  opacity: .5;
+  background-color: #600;
+  animation: circle1-ani 20s linear infinite;
+}
+
+@keyframes circle1-ani {
+  0%   { opacity: .0; left:0; top: 0}
+  50%  { opacity: .8; }
+  100% { opacity: .0; left: 1000px; top: 500px;}
+
+}
