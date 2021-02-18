@@ -1,0 +1,79 @@
+
+h1 {
+  color: lightgrey;
+  font-family: courier ;
+  font-size: 72px ;
+  text-align: left;
+}
+
+h2 {
+  color: lightgrey;
+  font-family: courier ;
+  font-size: 54px ;
+  text-align: left;
+}
+
+h3 {
+  color: lightgrey;
+  font-family: courier ;
+  font-size: 42px ;
+  text-align: left;
+  font-weight: normal;
+}
+body {
+  background-color: #6699cc ;
+}
+
+main {
+  background-color: white;
+  padding: 25px ;
+  margin: 50px ;
+  text-align: left;
+  border-radius: 1em ;
+}
+
+#song {
+}
+
+p {
+  color: lightgrey;
+  font-family: courier ;
+  font-size: 24px ;
+  text-align: left;
+  margin-left: 50px ;
+  margin-right: 50px ;
+}
+
+nav a {
+  color: lightgrey;
+  font-weight: bold ;
+  text-decoration: none ;
+  font-family: courier ;
+  border: 2px solid darkgrey ;
+  border-radius: .25em ;
+}
+
+a:hover {
+  color: darkgrey ;
+
+}
+
+nav {
+  display: grid ;
+  grid-template-columns: 1fr 1fr ;
+  grid-row-gap: .5em ;
+}
+
+
+
+#mainimg {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+
+@media all and (min-width: 30em){
+  nav { grid-template-columns: repeat(4,1fr);
+        grid-column-gap: .5em; }
+
+}
